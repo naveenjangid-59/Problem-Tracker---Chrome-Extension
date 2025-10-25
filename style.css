@@ -1,0 +1,127 @@
+/* style.css */
+/* --- Sleek & Professional Chrome Extension UI --- */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background: linear-gradient(135deg, #e9f0fa, #f7f9fc);
+  color: #1e1e1e;
+  transition: background 0.4s ease;
+}
+
+.container {
+  width: 370px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  padding: 16px;
+  margin: 10px auto;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #e2ecf5;
+}
+
+.container:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: #003366;
+  margin-bottom: 12px;
+  letter-spacing: 0.6px;
+  text-shadow: 0 1px 2px rgba(0, 51, 102, 0.2);
+}
+
+.bookmarks {
+  margin: 8px 6px;
+  padding: 5px;
+  max-height: 420px;
+  overflow-y: auto;
+}
+
+/* Individual bookmark card */
+.bookmark {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #eef4fa, #f9fbfe);
+  border: 1px solid #cfdff1;
+  border-radius: 12px;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  transition: all 0.25s ease;
+}
+
+.bookmark:hover {
+  background: linear-gradient(135deg, #e3f2ff, #f0f7ff);
+  transform: scale(1.03);
+  box-shadow: 0 3px 10px rgba(0, 90, 160, 0.1);
+}
+
+/* Bookmark title styling */
+.bookmark-title {
+  color: #0a2a43;
+  font-size: 14.5px;
+  font-weight: 600;
+  flex: 1;
+  margin-right: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Controls styling */
+.bookmark-controls {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.bookmark-controls img {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 0.25s ease;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1));
+}
+
+.bookmark-controls img:hover {
+  opacity: 1;
+  transform: scale(1.2) rotate(3deg);
+  filter: drop-shadow(0 2px 4px rgba(0, 51, 102, 0.2));
+}
+
+/* Scrollbar styling */
+.bookmarks::-webkit-scrollbar {
+  width: 6px;
+}
+
+.bookmarks::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #aac4da, #7ea8d6);
+  border-radius: 10px;
+}
+
+.bookmarks::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #7ea8d6, #5e92c8);
+}
+
+/* Empty message */
+.empty-message {
+  text-align: center;
+  color: #7a8ba3;
+  font-size: 14px;
+  margin-top: 20px;
+  font-style: italic;
+  animation: fadeIn 0.6s ease-in;
+}
+
+/* Smooth fade animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
