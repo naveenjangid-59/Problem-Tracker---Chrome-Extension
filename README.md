@@ -1,16 +1,16 @@
-# Chrome-Extension-Base-Template
-This is a basic Chrome Extension base template for starting new projects off of initialized with a MIT license.
+# Problem Tracker - Chrome Extension
+A simple yet powerful Chrome Extension for the AZ Platform (Single Page Application - SPA) that lets you easily bookmark coding problems, open them instantly, and sync bookmarks across devices using Chrome Sync Storage.
 
 ## Features
-- ..
-- ..
-- ..
+- ▶️ Quick Access via Play Button: Open saved problems directly from the popup.
+- ☁️ Chrome Sync Storage: Keeps bookmarks synced across your devices.
+- 🔄 Auto UI Refresh: Works flawlessly with AZ’s SPA behavior — auto-updates on dynamic page changes.
+
 
 ## Author
-First Last
-- [Author Website]()
-- [Author Github]()
-- [Project Repository]()
+Naveen Kumar
+- [Author Github](https://github.com/naveenjangid-59)
+- [Project Repository](https://github.com/naveenjangid-59/Problem-Tracker---Chrome-Extension)
 
 ## Requirements
 ### Knowledge
@@ -32,10 +32,5 @@ First Last
 6. Navigate to your unzipped project folder and select that and hit OK.
 7. You are now ready to start working on the extension! Just make sure you reload after each change you make to see the changes take place.
 
-### For End Users
-1. ...
-2. ...
-3. ...
 
-## License
-Please refer to LICENSE file.
+
